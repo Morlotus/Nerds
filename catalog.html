@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Дизайн-студия Нёрдс</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="index.html"><img src="https://via.placeholder.com/159x65" width="159" height="65" alt="Логотип" /></a>
+      <ul>
+        <li><a href="#studio">Студия</a></li>
+        <li><a href="#customers">Клиенты</a></li>
+        <li><a>Магазин</a></li>
+        <li><a href="#contacts">Контакты</a></li>
+      </ul>
+      <a href="#">Корзина</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h1>Магазин готовых шаблонов</h1>
+    </section>
+
+    <section>
+      <h2>Фильтр товаров</h2>
+      <form method="get" action="https://echo.htmlacademy.ru">
+        <fieldset>
+          <legend>Стоимость:</legend>
+          <input type="range" name="priceslider" min="0" max="15000" step="1">
+          <p>
+            <label>От <input type="text" name="from" value="0"></label>
+            <label>До <input type="text" name="before" value="15000"></label>
+          </p>
+        </fieldset>
+        <fieldset>
+          <legend>Сетка:</legend>
+          <ul>
+            <li><label><input type="radio" name="filter-grid" value="adaptive" checked>Адаптивная</label>
+            </li>
+            <li><label><input type="radio" name="filter-grid" value="fixed">Фиксированная</label></li>
+            <li><label><input type="radio" name="filter-grid" value="rubber">Резиновая</label></li>
+          </ul>
+        </fieldset>
+        <fieldset>
+          <legend>Особенности:</legend>
+          <ul>
+            <li><label><input type="checkbox" name="slider" checked>Слайдер</label></li>
+            <li><label><input type="checkbox" name="block_advantages">Блок преимуществ</label></li>
+            <li><label><input type="checkbox" name="news" checked>Новости</label></li>
+            <li><label><input type="checkbox" name="gallery">Галерея</label></li>
+            <li><label><input type="checkbox" name="basket">Корзина</label></li>
+          </ul>
+        </fieldset>
+        <button type="submit">Показать</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Сортировка товаров</h2>
+      <p>Сортировать:</p>
+      <ul>
+        <li><a href="#">По цене</a></li>
+        <li><a href="#">По типу</a></li>
+        <li><a href="#">По названию</a></li>
+        <li><a href="#">По увелечению</a></li>
+        <li><a href="#">По уменьшению</a></li>
+        <!--Кнопки-->
+      </ul>
+    </section>
+
+    <section>
+      <h2>Шаблоны</h2>
+      <ul>
+        <li>
+          <img src="https://via.placeholder.com/360x40" width="360" height="40" alt="browser" />
+          <!--скорее всего в стилях добавлять -->
+          <img src="https://via.placeholder.com/360x578" width="360" height="578" alt="Sedona" />
+          <a>
+            <h3>Sedona</h3>
+          </a>
+          <p>Информационный сайт для туристов</p>
+          <a href="#">9900</a>
+        </li>
+
+        <li>
+          <img src="https://via.placeholder.com/360x40" width="360" height="40" alt="browser" />
+          <!--скорее всего в стилях добавлять -->
+          <img src="https://via.placeholder.com/360x578" width="360" height="578" alt="Pink App" />
+          <a>
+            <h3>Pink App</h3>
+          </a>
+          <p>Продуктовый лендингприложения для iOS и Android</p>
+          <a href="#">9900</a>
+        </li>
+
+        <li>
+          <img src="https://via.placeholder.com/360x40" width="360" height="40" alt="browser" />
+          <!--скорее всего в стилях добавлять -->
+          <img src="https://via.placeholder.com/360x578" width="360" height="578" alt="Barbershop" />
+          <a>
+            <h3>Barbershop</p>
+          </a>
+          <p>Сайт салона красоты. Для мужчин, да.</p>
+          <a href="#">9900</a>
+        </li>
+
+        <li>
+          <img src="https://via.placeholder.com/360x40" width="360" height="40" alt="browser" />
+          <!--скорее всего в стилях добавлять -->
+          <img src="https://via.placeholder.com/360x578" width="360" height="578" alt="MISHKA" />
+          <a>
+            <h3>MISHKA</p>
+          </a>
+          <p>Интернет-магазин вязаных игрушек</p>
+          <a href="#">9900</a>
+        </li>
+
+        <li>
+          <img src="https://via.placeholder.com/360x40" width="360" height="40" alt="browser" />
+          <!--скорее всего в стилях добавлять -->
+          <img src="https://via.placeholder.com/360x578" width="360" height="578" alt="A Plus" />
+          <a>
+            <h3>A Plus</p>
+          </a>
+          <p>Лендинг курсов повышения квалификации</p>
+          <a href="#">9900</a>
+        </li>
+
+        <li>
+          <img src="https://via.placeholder.com/360x40" width="360" height="40" alt="browser" />
+          <!--скорее всего в стилях добавлять -->
+          <img src="https://via.placeholder.com/360x578" width="360" height="578" alt="Кваст" />
+          <a>
+            <h3>Кваст</p>
+          </a>
+          <p>Промо-сайт производителя крафтового кваса</p>
+          <a href="#">9900</a>
+        </li>
+      </ul>
+      <ul>
+        <li><a>1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">Следующая</a></li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <section>
+      <h2 id="contacts">Контакты</h2>
+      <p>
+        <!--Здесь будет карта фоном. Пока не знаю, как поставить-->
+        NЁRDS DESIGN STUDIO<br />
+        наб. Реки Карповки,<br />
+        5 лит П, Санкт-Петербург<br />
+        <a href="tel:+78005558628">+7 800 555-86-28</a><br />
+        <a href="#">Напишите нам</a>
+      </p>
+    </section>
+    <section>
+      <h2>Социальные сети</h2>
+      <ul>
+        <li><a href="#">VK</a></li>
+        <li><a href="#">FB</a></li>
+        <li><a href="#">Insta</a></li>
+      </ul>
+      <p>Давайте дружить, это выгодно!</p>
+      <p>Скидка 10% для друзей из социальных сетей.</p>
+    </section>
+  </footer>
+</body>
+
+</html>
